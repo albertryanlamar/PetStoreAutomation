@@ -1,0 +1,20 @@
+2023-09-24 15:06:27.890 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-09-24 15:06:32.205 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1709700394"}
+2023-09-24 15:06:32.205 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-09-24 15:06:32.401 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-09-24 15:06:33.912 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1709700394,"username":"corrine.hodkiewicz","firstName":"Flor","lastName":"Jaskolski","email":"smayx29u4","phone":"1-554-050-8949","userStatus":0}
+2023-09-24 15:06:33.913 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-09-24 15:06:33.915 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-09-24 15:06:35.265 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1709700394"}
+2023-09-24 15:06:35.286 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-09-24 15:06:36.768 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1709700394,"username":"corrine.hodkiewicz","firstName":"Terrell","lastName":"Wisoky","email":"smayx29u4","phone":"1-554-050-8949","userStatus":0}
+2023-09-24 15:06:36.768 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-09-24 15:06:36.768 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-09-24 15:06:36.770 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-09-24 15:06:38.063 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"corrine.hodkiewicz"}
+2023-09-24 15:06:38.064 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
