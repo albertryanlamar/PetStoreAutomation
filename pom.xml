@@ -3,7 +3,7 @@
   <groupId>PetStoreAutomation</groupId>
   <artifactId>PetStoreAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
- 
+ <!-- For Running the code in Maven Test -->
 <build>
     <pluginManagement>
   		<plugins>
@@ -27,9 +27,11 @@
   
      </pluginManagement>
   </build>
+  <!-- End For Running the code in Maven Test -->
   
   <dependencies>
-		     	<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<!-- For Testing -->
      	<dependency>
        		<groupId>io.rest-assured</groupId>
        		<artifactId>rest-assured</artifactId>
@@ -38,6 +40,7 @@
     	</dependency>
     	
      	<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+     	<!-- For Testing -->
 		<dependency>
     		<groupId>io.rest-assured</groupId>
     		<artifactId>json-path</artifactId>
@@ -45,13 +48,15 @@
     		<scope>test</scope>
 		</dependency>
 		
-				<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<!-- For Testing -->
 		<dependency>
     		<groupId>org.json</groupId>
     		<artifactId>json</artifactId>
    			<version>20230618</version>
 		</dependency>
 		
+		<!-- For Testing -->
 		<dependency>
     		<groupId>org.testng</groupId>
     		<artifactId>testng</artifactId>
