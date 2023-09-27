@@ -115,7 +115,7 @@ public class userTest
 		ExtentReportManager.setResponse(response);
 	}
 	@Test(priority = 4)
-	public void testDeleteUser() 
+	public void testDeleteUser()
 	{
 		logger.info("***************** Deleting User *****************");
 		Response response = userEndpoints.delUser(userPayload.getUsername());
