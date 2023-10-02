@@ -120,3 +120,199 @@
 2023-09-27 12:55:16.138 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5a5c2889: 7 ms
 2023-09-27 12:55:16.146 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@d7c4fcb: 7 ms
 2023-09-27 12:55:16.146 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@61d527ac: 0 ms
+2023-09-30 15:48:54.546 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2023-09-30 15:48:55.508 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-09-30 15:49:01.382 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"274100821"}
+2023-09-30 15:49:01.382 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-09-30 15:49:01.652 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-09-30 15:49:03.179 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":274100821,"username":"narcisa.pagac","firstName":"Brittaney","lastName":"Cummerata","email":"k0tv1bexgvbm040","phone":"1-611-651-0452","userStatus":0}
+2023-09-30 15:49:03.180 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-09-30 15:49:03.183 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-09-30 15:49:04.580 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"274100821"}
+2023-09-30 15:49:04.617 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-09-30 15:49:06.189 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":274100821,"username":"narcisa.pagac","firstName":"Ferdinand","lastName":"Simonis","email":"k0tv1bexgvbm040","phone":"1-611-651-0452","userStatus":0}
+2023-09-30 15:49:06.189 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-09-30 15:49:06.189 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-09-30 15:49:06.192 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-09-30 15:49:07.651 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"narcisa.pagac"}
+2023-09-30 15:49:07.651 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-02 21:59:53.791 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2023-10-02 21:59:53.803 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2023-10-02 21:59:53.806 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.806 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.811 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2023-10-02 21:59:53.825 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2023-10-02 21:59:53.826 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.826 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.827 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.828 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.828 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.828 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.830 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.831 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.831 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.831 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.832 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.832 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.832 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.832 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.834 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.839 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2023-10-02 21:59:53.841 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.841 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.841 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-02 21:59:53.841 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-02 21:59:53.860 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\AppData\Local\Temp\testng-eclipse-1222584160\testng-customsuite.xml
+
+2023-10-02 21:59:53.895 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2023-10-02 21:59:54.327 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-02 21:59:59.584 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"2098992714"}
+2023-10-02 21:59:59.584 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-02 21:59:59.598 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:00:01.140 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":2098992714,"username":"melia.schroeder","firstName":"Shenna","lastName":"Reinger","email":"sksvo922","phone":"006.219.4192","userStatus":0}
+2023-10-02 22:00:01.140 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:00:01.143 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-02 22:00:02.529 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"2098992714"}
+2023-10-02 22:00:02.553 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:00:04.102 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":2098992714,"username":"melia.schroeder","firstName":"Emanuel","lastName":"Bernhard","email":"sksvo922","phone":"006.219.4192","userStatus":0}
+2023-10-02 22:00:04.102 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:00:04.102 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-02 22:00:04.105 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-02 22:00:05.412 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"melia.schroeder"}
+2023-10-02 22:00:05.412 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-02 22:00:05.534 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7e522994: 71 ms
+2023-10-02 22:00:05.636 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7424796c: 102 ms
+2023-10-02 22:00:05.637 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2d8c51c9: 1 ms
+2023-10-02 22:00:05.649 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3447c3ed: 12 ms
+2023-10-02 22:00:05.657 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@67d9abfb: 8 ms
+2023-10-02 22:00:05.664 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6de6baf6: 7 ms
+2023-10-02 22:00:05.664 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@135a2de7: 0 ms
+2023-10-02 22:01:44.342 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-02 22:01:48.724 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1870749311"}
+2023-10-02 22:01:48.724 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-02 22:01:48.919 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:01:50.420 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1870749311,"username":"jay.mante","firstName":"Gertha","lastName":"Heaney","email":"215f4muxtj","phone":"723-077-4391","userStatus":0}
+2023-10-02 22:01:50.420 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:01:50.423 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-02 22:01:53.234 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1870749311"}
+2023-10-02 22:01:53.258 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:01:54.783 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1870749311,"username":"jay.mante","firstName":"Leif","lastName":"Reichel","email":"215f4muxtj","phone":"723-077-4391","userStatus":0}
+2023-10-02 22:01:54.783 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:01:54.783 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-02 22:01:54.784 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-02 22:01:56.190 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"jay.mante"}
+2023-10-02 22:01:56.191 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-02 22:11:52.589 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\eclipse-workspace\PetStoreAutomation\testng.xml
+
+2023-10-02 22:11:53.063 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-02 22:11:58.389 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"197855654"}
+2023-10-02 22:11:58.390 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-02 22:11:58.407 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:12:00.344 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":197855654,"username":"min.kiehn","firstName":"Elvia","lastName":"Feil","email":"f9h46pwhbibfa5","phone":"059-022-3086","userStatus":0}
+2023-10-02 22:12:00.344 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:12:00.348 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-02 22:12:01.681 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"197855654"}
+2023-10-02 22:12:01.705 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:12:03.154 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":197855654,"username":"min.kiehn","firstName":"Ebonie","lastName":"Kautzer","email":"f9h46pwhbibfa5","phone":"059-022-3086","userStatus":0}
+2023-10-02 22:12:03.154 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:12:03.154 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-02 22:12:03.156 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-02 22:12:04.518 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"min.kiehn"}
+2023-10-02 22:12:04.518 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-02 22:36:41.424 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\eclipse-workspace\PetStoreAutomation\testng.xml
+
+2023-10-02 22:36:42.415 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-02 22:36:47.725 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"2083154356"}
+2023-10-02 22:36:47.726 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-02 22:36:47.950 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:36:49.515 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":2083154356,"username":"lilly.damore","firstName":"Collene","lastName":"Spinka","email":"lfkxz8vc7sp","phone":"280.353.7432","userStatus":0}
+2023-10-02 22:36:49.515 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:36:49.523 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-02 22:36:50.936 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"2083154356"}
+2023-10-02 22:36:50.967 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:36:52.421 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":2083154356,"username":"lilly.damore","firstName":"Norberto","lastName":"Marvin","email":"lfkxz8vc7sp","phone":"280.353.7432","userStatus":0}
+2023-10-02 22:36:52.421 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:36:52.421 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-02 22:36:52.424 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-02 22:36:53.800 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"lilly.damore"}
+2023-10-02 22:36:53.800 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-02 22:38:17.087 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\eclipse-workspace\PetStoreAutomation\testng.xml
+
+2023-10-02 22:38:17.563 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-02 22:38:21.536 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"197855654"}
+2023-10-02 22:38:21.536 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-02 22:38:21.721 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:38:23.351 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":197855654,"username":"jamey.deckow","firstName":"Noah","lastName":"Schmidt","email":"7l9vhz7eyb9b4v","phone":"425-722-8638","userStatus":0}
+2023-10-02 22:38:23.352 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:38:23.358 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-02 22:38:24.645 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"197855654"}
+2023-10-02 22:38:24.671 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:38:26.071 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":197855654,"username":"jamey.deckow","firstName":"Paz","lastName":"Huel","email":"7l9vhz7eyb9b4v","phone":"425-722-8638","userStatus":0}
+2023-10-02 22:38:26.071 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:38:26.071 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-02 22:38:26.080 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-02 22:38:27.423 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"jamey.deckow"}
+2023-10-02 22:38:27.424 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-02 22:42:27.224 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\eclipse-workspace\PetStoreAutomation\testng.xml
+
+2023-10-02 22:42:27.738 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-02 22:42:32.412 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"2083154356"}
+2023-10-02 22:42:32.412 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-02 22:42:32.588 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:42:35.626 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":2083154356,"username":"bret.hermann","firstName":"Miles","lastName":"DuBuque","email":"i6jjtb49d1","phone":"1-115-638-1091","userStatus":0}
+2023-10-02 22:42:35.627 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:42:35.631 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-02 22:42:37.691 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"2083154356"}
+2023-10-02 22:42:37.713 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-02 22:42:39.179 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":2083154356,"username":"bret.hermann","firstName":"Candance","lastName":"White","email":"i6jjtb49d1","phone":"1-115-638-1091","userStatus":0}
+2023-10-02 22:42:39.180 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-02 22:42:39.180 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-02 22:42:39.183 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-02 22:42:40.607 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"bret.hermann"}
+2023-10-02 22:42:40.607 [main] INFO  api.test.userTest - ***************** User is Deleted *****************

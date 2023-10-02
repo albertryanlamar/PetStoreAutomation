@@ -55,7 +55,6 @@ public class userTest
 	public void testPostUser()
 	{
 		logger.info("***************** Creating User *****************");
-		
 		Response response = userEndpoints.createUser(userPayload);
 		String messag = response.jsonPath().getString("message");
 		
@@ -87,7 +86,7 @@ public class userTest
 				.body(userKeys.em, is(userPayload.getEmail()))
 				.body(userKeys.pass, is(userPayload.getPassword()))
 				.body(userKeys.cpnum, is(userPayload.getPhone()))
-			.log().all();
+			    .log().all();
 		logger.info("HTTP Response Body:\n" + response.getBody().asString());
 			Assert.assertEquals(response.getStatusCode(), 200);
 			Assert.assertEquals(fke_idNumber,userPayload.getId());
@@ -114,6 +113,8 @@ public class userTest
 		logger.info("***************** User is updated *****************");
 		ExtentReportManager.setResponse(response);
 	}
+	
+/* Start of Test DeleteUser */	
 	@Test(priority = 4)
 	public void testDeleteUser()
 	{
@@ -124,4 +125,6 @@ public class userTest
 		logger.info("***************** User is Deleted *****************");
 		ExtentReportManager.setResponse(response);
 	}
+/* End of Test DeleteUser */	
+	
 }

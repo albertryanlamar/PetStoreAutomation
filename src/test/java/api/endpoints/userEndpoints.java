@@ -1,7 +1,6 @@
 package api.endpoints;
 
 import api.payload.User;
-import org.testng.annotations.Test;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;

@@ -14,7 +14,7 @@ public class testinkolang {
 		TestNG testNG = new TestNG();
         List<Class<?>> testClasses = Arrays.asList(
         		 userTest.class,
-        		storeTest.class
+        		 storeTest.class
                
                 // Add more test classes as needed
             );
