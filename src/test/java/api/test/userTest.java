@@ -1,6 +1,5 @@
 package api.test;
 
-import static org.testng.Assert.assertEquals;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,6 +14,7 @@ import api.payload.User;
 import api.utilities.ExtentReportManager;
 import api.endpoints.userKeys;
 import io.restassured.response.Response;
+import api.validation.*;
 
 public class userTest 
 {
@@ -22,6 +22,7 @@ public class userTest
     User userPayload;
     public int fke_idNumber;
     public Logger logger;
+    userTestValidation uservalidate = new userTestValidation();
     
 	@BeforeClass
 	public void setupUserData()
@@ -56,18 +57,10 @@ public class userTest
 	{
 		logger.info("***************** Creating User *****************");
 		Response response = userEndpoints.createUser(userPayload);
-		String messag = response.jsonPath().getString("message");
-		
-		response.then()
-			.assertThat()
-			.body("type", is("unknown"))
-			.body("message",is(messag))
-			.log().all();
-		    Assert.assertEquals(response.getStatusCode(), 200);
-		    logger.info("HTTP Response Body:\n" + response.getBody().asString());
-			// System.out.println("Id Number 3: " + userPayload.getId());
-		    logger.info("***************** User is Created *****************");
-		    ExtentReportManager.setResponse(response);
+		uservalidate.postuserValidation(response);//call the valdiation of psotuservalidation
+		logger.info("HTTP Response Body:\n" + response.getBody().asString());//logs the response
+		logger.info("***************** User is Created *****************");//logs
+		ExtentReportManager.setResponse(response);//get the response and will use in the extentreport
 		    
 	}
 
@@ -75,41 +68,25 @@ public class userTest
 	public void testGetUser() 
 	{
 		logger.info("***************** Read user Info *****************");
+		
 		Response response = userEndpoints.getUser(userPayload.getUsername());
 		
-		response.then()
-		    .assertThat()
-				.body(userKeys.id,is(equalTo(userPayload.getId())))
-				.body(userKeys.uname, is(userPayload.getUsername()))
-				.body(userKeys.fname,is(userPayload.getFirstName()))
-				.body(userKeys.lname, is(userPayload.getLastName()))
-				.body(userKeys.em, is(userPayload.getEmail()))
-				.body(userKeys.pass, is(userPayload.getPassword()))
-				.body(userKeys.cpnum, is(userPayload.getPhone()))
-			    .log().all();
+		uservalidate.getuserValidation(response, userPayload,fke_idNumber);
+		
 		logger.info("HTTP Response Body:\n" + response.getBody().asString());
-			Assert.assertEquals(response.getStatusCode(), 200);
-			Assert.assertEquals(fke_idNumber,userPayload.getId());
-			//System.out.println("Username : " + userPayload.getUsername());
-			logger.info("***************** User Info is displayed *****************");
-			ExtentReportManager.setResponse(response);
+		logger.info("***************** User Info is displayed *****************");
+		ExtentReportManager.setResponse(response);
 	}
 	
 	@Test(priority = 3)
 	public void test_UpdateUser() 
 	{
-		logger.info("***************** Updating User *****************");
-		setupUpdate();//call the method update payload
+		logger.info("***************** Updating User *****************");		
+		setupUpdate();//call the method update payload		
 		Response response = userEndpoints.updateUser(this.userPayload.getUsername(),userPayload);
-		String messag = response.jsonPath().getString("message");
+		uservalidate.updateuserValidation(response);
 		logger.info("HTTP Response Body:\n" + response.getBody().asString());
-		response.then()
-				.assertThat()
-					.body("type", is("unknown"))
-					.body("message",is(messag))
-					.log().all();
-					 Assert.assertEquals(response.getStatusCode(), 200);
-					 testGetUser();//validate the response update
+		testGetUser();//validate the response update
 		logger.info("***************** User is updated *****************");
 		ExtentReportManager.setResponse(response);
 	}

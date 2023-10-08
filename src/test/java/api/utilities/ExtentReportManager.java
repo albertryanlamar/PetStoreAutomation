@@ -81,7 +81,7 @@ public class ExtentReportManager implements ITestListener
 		//test.assignCategory(result.getMethod().getGroups());
 		test.assignCategory(result.getInstance().getClass().getName());
 		test.log(Status.PASS,"Test Passed");
-		test.log(Status.INFO,"Response Code is:"+response.getStatusCode());
+		test.log(Status.INFO,"Response Code is: "+response.getStatusCode());
 		ExtentTest scenario =test.createNode("Response Body Info");
 		scenario.log(Status.INFO,"Response Code is:"+response.getHeaders());
 		scenario.log(Status.INFO,MarkupHelper.createCodeBlock(response.asString(), CodeLanguage.JSON));

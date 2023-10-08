@@ -7,6 +7,7 @@
 <build>
     <pluginManagement>
   		<plugins>
+			  
 			<plugin>
           		<groupId>org.apache.maven.plugins</groupId>
           		<artifactId>maven-surefire-plugin</artifactId>
@@ -23,10 +24,11 @@
           		<artifactId>maven-compiler-plugin</artifactId>
           		<version>3.11.0</version>
       	    </plugin>
+      	    
   		</plugins>
   
      </pluginManagement>
-  </build>
+</build>
   <!-- End For Running the code in Maven Test -->
   
   <dependencies>

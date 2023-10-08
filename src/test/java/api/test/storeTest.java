@@ -16,6 +16,7 @@ import io.restassured.response.Response;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import api.validation.*;
 
 
 public class storeTest {
@@ -23,6 +24,7 @@ public class storeTest {
 	Faker faker;
 	order orderPayload;
 	int getID;
+	storeTestValidation storevalidate = new storeTestValidation();
 	
 	/*
 	@BeforeClass
@@ -50,28 +52,20 @@ public class storeTest {
         JSONObject ob = new JSONObject(jt);
         
 	  Response response =  storeEndpoints.creatOrder(ob);
-	  response.then()
-	  .statusCode(200)
-	  .log().all();
+	  storevalidate.creatorderValidation(response);//call the function of store validation
 	  getID = response.jsonPath().getInt("id");
-	  System.out.println(getID);
 	}
 	@Test (priority =2)
 	public void getorder()
 	{
-		System.out.println(getID);
 		Response response  = storeEndpoints.getOrder(getID);
-		response.then()
-		//.statusCode(200);
-		.log().all();
+		storevalidate.getorderValidation(response);//call the function of validation
 	}
 	
 	@Test (priority =3)
 	public void getorderInventory()
 	{
 		Response response  = storeEndpoints.getInventory();
-		response.then()
-		.statusCode(200)
-		.log().all();
+		storevalidate.getinventoryValidation(response);
 	}
 }
