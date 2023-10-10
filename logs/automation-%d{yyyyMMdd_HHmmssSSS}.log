@@ -667,3 +667,44 @@
 2023-10-08 19:13:57.342 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@f2fb225: 6 ms
 2023-10-08 19:13:57.349 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@539316bb: 7 ms
 2023-10-08 19:13:57.349 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5d1a859c: 0 ms
+2023-10-08 19:50:40.476 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\eclipse-workspace\PetStoreAutomation\testng.xml
+
+2023-10-08 19:50:41.141 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-08 19:50:45.789 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1378559537"}
+2023-10-08 19:50:45.789 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-08 19:50:45.992 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-08 19:50:47.388 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1378559537,"username":"floyd.conroy","firstName":"Arnold","lastName":"Feest","email":"jg1zuh7db0wxhl9","phone":"577.814.5297","userStatus":0}
+2023-10-08 19:50:47.388 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-08 19:50:47.393 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-08 19:50:51.102 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1378559537"}
+2023-10-08 19:50:51.102 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-08 19:50:52.430 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-08 19:50:54.072 [main] INFO  api.test.userTest - HTTP Response Body:
+
+2023-10-08 19:52:38.382 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\eclipse-workspace\PetStoreAutomation\testng.xml
+
+2023-10-08 19:52:38.856 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-08 19:52:43.151 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1792088662"}
+2023-10-08 19:52:43.152 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-08 19:52:43.335 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-08 19:52:44.723 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1792088662,"username":"alvin.ferry","firstName":"Benito","lastName":"Mitchell","email":"063tgwv5pu63v6","phone":"1-979-279-6219","userStatus":0}
+2023-10-08 19:52:44.723 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-08 19:52:44.728 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-08 19:52:46.090 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1792088662"}
+2023-10-08 19:52:46.091 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-08 19:52:47.494 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1792088662,"username":"alvin.ferry","firstName":"Loriann","lastName":"Barton","email":"063tgwv5pu63v6","phone":"1-979-279-6219","userStatus":0}
+2023-10-08 19:52:47.494 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-08 19:52:47.494 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-08 19:52:47.497 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-08 19:52:49.071 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"alvin.ferry"}
+2023-10-08 19:52:49.071 [main] INFO  api.test.userTest - ***************** User is Deleted *****************

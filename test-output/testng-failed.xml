@@ -8,20 +8,11 @@
     <classes>
       <class name="api.test.userTest">
         <methods>
-          <include name="setupUserData"/>
           <include name="testDeleteUser"/>
-          <include name="testPostUser"/>
+          <include name="setupUserData"/>
           <include name="test_UpdateUser"/>
-          <include name="testGetUser"/>
         </methods>
       </class> <!-- api.test.userTest -->
-      <class name="api.test.storeTest">
-        <methods>
-          <include name="getorder"/>
-          <include name="getorderInventory"/>
-          <include name="createorder"/>
-        </methods>
-      </class> <!-- api.test.storeTest -->
     </classes>
   </test> <!-- PetTests(failed) -->
 </suite> <!-- Failed suite [PetSuite] -->
