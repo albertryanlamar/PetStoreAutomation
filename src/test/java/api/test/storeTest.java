@@ -46,14 +46,14 @@ public class storeTest {
 	@Test (priority  = 1)
 	public void createorder() throws FileNotFoundException 
 	{
-        File f = new File("./src/test/java/api/payload/order.json");
-        FileReader fr = new FileReader(f);
-        JSONTokener jt = new JSONTokener(fr);
-        JSONObject ob = new JSONObject(jt);
+        File f = new File("./src/test/java/api/payload/order.json");//read or get the file on the folder
+        FileReader fr = new FileReader(f); // initiate file reader, to read the file
+        JSONTokener jt = new JSONTokener(fr); // cast the file into json by jsontokener, the file was string casting to json format since API Read/accept only jsonformat
+        JSONObject ob = new JSONObject(jt); // cast the json into object since java is oop language, meaning accept only object
         
-	  Response response =  storeEndpoints.creatOrder(ob);
+	  Response response =  storeEndpoints.creatOrder(ob);//call the create order function method and assign the object ob as method parameter
 	  storevalidate.creatorderValidation(response);//call the function of store validation
-	  getID = response.jsonPath().getInt("id");
+	  getID = response.jsonPath().getInt("id"); //get the API response ID and assign or store the value in getID variable
 	}
 	@Test (priority =2)
 	public void getorder()

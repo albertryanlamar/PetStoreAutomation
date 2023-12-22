@@ -708,3 +708,226 @@
 2023-10-08 19:52:49.071 [main] INFO  api.test.userTest - HTTP Response Body:
 {"code":200,"type":"unknown","message":"alvin.ferry"}
 2023-10-08 19:52:49.071 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-13 15:51:27.659 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2023-10-13 15:51:27.683 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2023-10-13 15:51:27.686 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.686 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.687 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.687 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.688 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.688 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.695 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2023-10-13 15:51:27.715 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+2023-10-13 15:51:27.716 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.716 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.717 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.717 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.718 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.718 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.722 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.722 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.724 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.724 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.724 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.725 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.727 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.732 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2023-10-13 15:51:27.735 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.735 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.735 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-10-13 15:51:27.735 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-10-13 15:51:27.755 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\AppData\Local\Temp\testng-eclipse--803291716\testng-customsuite.xml
+
+2023-10-13 15:51:27.787 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2023-10-13 15:51:28.207 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-10-13 15:51:33.675 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1725054538"}
+2023-10-13 15:51:33.675 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-10-13 15:51:33.689 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-13 15:51:35.440 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1725054538,"username":"ernestina.wiza","firstName":"Walter","lastName":"Kunde","email":"2x3k5p019","phone":"358.353.9514","userStatus":0}
+2023-10-13 15:51:35.441 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-13 15:51:35.446 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-10-13 15:51:36.797 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1725054538"}
+2023-10-13 15:51:36.798 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-10-13 15:51:38.278 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1725054538,"username":"ernestina.wiza","firstName":"Elizebeth","lastName":"Davis","email":"2x3k5p019","phone":"358.353.9514","userStatus":0}
+2023-10-13 15:51:38.278 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-10-13 15:51:38.278 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-10-13 15:51:38.282 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-10-13 15:51:39.563 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"ernestina.wiza"}
+2023-10-13 15:51:39.563 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-10-13 15:51:39.731 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7c751692: 94 ms
+2023-10-13 15:51:40.426 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@c7a1db6: 694 ms
+2023-10-13 15:51:40.426 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@17c72ffa: 0 ms
+2023-10-13 15:51:40.442 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@d7c4fcb: 15 ms
+2023-10-13 15:51:40.456 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@b9c9bf5: 14 ms
+2023-10-13 15:51:40.469 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1bbfd42f: 13 ms
+2023-10-13 15:51:40.470 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@65f96d58: 0 ms
+2023-11-20 13:34:55.905 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2023-11-20 13:34:55.926 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2023-11-20 13:34:55.928 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.929 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.929 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.929 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.930 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.930 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.934 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2023-11-20 13:34:55.950 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2023-11-20 13:34:55.950 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.951 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.951 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.952 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.952 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.952 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.955 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.955 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.956 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.956 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.957 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.957 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.957 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.957 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.959 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.962 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2023-11-20 13:34:55.964 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.964 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.965 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-20 13:34:55.965 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-20 13:34:55.979 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\AppData\Local\Temp\testng-eclipse-793165820\testng-customsuite.xml
+
+2023-11-20 13:34:56.008 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2023-11-20 13:34:56.330 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-11-20 13:35:00.790 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1235635586"}
+2023-11-20 13:35:00.790 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-11-20 13:35:00.799 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-20 13:35:02.268 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1235635586,"username":"chase.lueilwitz","firstName":"Darin","lastName":"Thompson","email":"tem5juhsjfyk4","phone":"790.753.6684","userStatus":0}
+2023-11-20 13:35:02.268 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-20 13:35:02.272 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-11-20 13:35:03.637 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1235635586"}
+2023-11-20 13:35:03.637 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-20 13:35:05.087 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1235635586,"username":"chase.lueilwitz","firstName":"Oliver","lastName":"Hane","email":"tem5juhsjfyk4","phone":"790.753.6684","userStatus":0}
+2023-11-20 13:35:05.087 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-20 13:35:05.087 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-11-20 13:35:05.090 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-11-20 13:35:06.446 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"chase.lueilwitz"}
+2023-11-20 13:35:06.446 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-11-20 13:35:06.557 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@41433530: 71 ms
+2023-11-20 13:35:06.665 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6ec77cab: 108 ms
+2023-11-20 13:35:06.667 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@c7a1db6: 1 ms
+2023-11-20 13:35:06.684 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@41f61188: 17 ms
+2023-11-20 13:35:06.697 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2809e38a: 13 ms
+2023-11-20 13:35:06.715 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@69ae7632: 16 ms
+2023-11-20 13:35:06.715 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1bbfd42f: 0 ms
+2023-11-25 16:31:50.366 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2023-11-25 16:31:50.394 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2023-11-25 16:31:50.398 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.398 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.399 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.400 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.401 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.402 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.410 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2023-11-25 16:31:50.430 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+2023-11-25 16:31:50.431 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.431 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.432 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.432 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.432 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.433 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.436 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.437 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.437 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.437 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.438 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.438 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.439 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.439 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.441 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.446 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2023-11-25 16:31:50.448 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.448 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.449 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-11-25 16:31:50.449 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-11-25 16:31:50.467 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\WSI\AppData\Local\Temp\testng-eclipse--1586498716\testng-customsuite.xml
+
+2023-11-25 16:31:50.504 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2023-11-25 16:31:50.932 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-11-25 16:31:57.140 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1235635586"}
+2023-11-25 16:31:57.140 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-11-25 16:31:57.157 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-25 16:31:58.794 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1235635586,"username":"nathanael.nader","firstName":"Pablo","lastName":"Ebert","email":"rinvapwyxf","phone":"(242) 278-5148","userStatus":0}
+2023-11-25 16:31:58.794 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-25 16:31:58.798 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-11-25 16:32:00.313 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1235635586"}
+2023-11-25 16:32:00.313 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-25 16:32:01.812 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1235635586,"username":"nathanael.nader","firstName":"Ardella","lastName":"Strosin","email":"rinvapwyxf","phone":"(242) 278-5148","userStatus":0}
+2023-11-25 16:32:01.812 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-25 16:32:01.812 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-11-25 16:32:01.816 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-11-25 16:32:03.234 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"nathanael.nader"}
+2023-11-25 16:32:03.235 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-11-25 16:32:03.401 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@1812b564: 99 ms
+2023-11-25 16:32:03.574 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@67216c33: 173 ms
+2023-11-25 16:32:03.575 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@6ec77cab: 1 ms
+2023-11-25 16:32:03.586 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6d38a81d: 11 ms
+2023-11-25 16:32:03.595 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1a56f608: 8 ms
+2023-11-25 16:32:03.605 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@69988d42: 10 ms
+2023-11-25 16:32:03.605 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@69ae7632: 0 ms
+2023-11-25 22:56:54.224 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-11-25 22:56:59.065 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1969856053"}
+2023-11-25 22:56:59.066 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-11-25 22:56:59.271 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-25 22:57:00.736 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1969856053,"username":"amanda.goodwin","firstName":"Dione","lastName":"Koelpin","email":"hd8xrtqfr","phone":"379-984-2884","userStatus":0}
+2023-11-25 22:57:00.736 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-25 22:57:00.740 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-11-25 22:57:03.045 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1969856053"}
+2023-11-25 22:57:03.045 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-25 22:57:04.493 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1969856053,"username":"amanda.goodwin","firstName":"Loyce","lastName":"Pagac","email":"hd8xrtqfr","phone":"379-984-2884","userStatus":0}
+2023-11-25 22:57:04.494 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-25 22:57:04.494 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-11-25 22:57:04.496 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-11-25 22:57:05.800 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"amanda.goodwin"}
+2023-11-25 22:57:05.800 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
+2023-11-28 11:24:09.961 [main] INFO  api.test.userTest - ***************** Creating User *****************
+2023-11-28 11:24:16.922 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1969856053"}
+2023-11-28 11:24:16.923 [main] INFO  api.test.userTest - ***************** User is Created *****************
+2023-11-28 11:24:17.410 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-28 11:24:18.647 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1969856053,"username":"frederick.torp","firstName":"Victor","lastName":"Pollich","email":"7wa304mxp42","phone":"126.963.5576","userStatus":0}
+2023-11-28 11:24:18.647 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-28 11:24:18.651 [main] INFO  api.test.userTest - ***************** Updating User *****************
+2023-11-28 11:24:19.752 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"1969856053"}
+2023-11-28 11:24:19.752 [main] INFO  api.test.userTest - ***************** Read user Info *****************
+2023-11-28 11:24:20.926 [main] INFO  api.test.userTest - HTTP Response Body:
+{"id":1969856053,"username":"frederick.torp","firstName":"Tonia","lastName":"Hayes","email":"7wa304mxp42","phone":"126.963.5576","userStatus":0}
+2023-11-28 11:24:20.926 [main] INFO  api.test.userTest - ***************** User Info is displayed *****************
+2023-11-28 11:24:20.927 [main] INFO  api.test.userTest - ***************** User is updated *****************
+2023-11-28 11:24:20.931 [main] INFO  api.test.userTest - ***************** Deleting User *****************
+2023-11-28 11:24:21.963 [main] INFO  api.test.userTest - HTTP Response Body:
+{"code":200,"type":"unknown","message":"frederick.torp"}
+2023-11-28 11:24:21.963 [main] INFO  api.test.userTest - ***************** User is Deleted *****************
