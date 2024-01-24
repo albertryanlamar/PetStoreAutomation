@@ -52,7 +52,7 @@ public class userTest
 	}
 	/*-- end of update payload */
 	
-	@Test(priority =1)
+	@Test(priority =1, enabled = true)
 	public void testPostUser()
 	{
 		logger.info("***************** Creating User *****************");
@@ -64,7 +64,7 @@ public class userTest
 		    
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, enabled = true)
 	public void testGetUser() 
 	{
 		logger.info("***************** Read user Info *****************");
@@ -78,7 +78,7 @@ public class userTest
 		ExtentReportManager.setResponse(response);
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3, enabled = true)
 	public void test_UpdateUser() 
 	{
 		logger.info("***************** Updating User *****************");		
@@ -92,7 +92,7 @@ public class userTest
 	}
 	
 /* Start of Test DeleteUser */	
-	@Test(priority = 4)
+	@Test(priority = 4, enabled = true)
 	public void testDeleteUser()
 	{
 		logger.info("***************** Deleting User *****************");
